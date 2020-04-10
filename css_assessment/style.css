@@ -1,0 +1,43 @@
+/* This is assuming a full screen, otherwise, the percentage might need to be changed to a length */
+
+div {
+  margin-top: 20px;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  
+}
+
+#head{
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+
+
+#left {
+  width: 50%;
+  float: left;
+  background-color: blue;
+  text-align: center;
+
+}
+
+#right{
+  width: 25%;
+  float: right;
+  background-color: red;
+  text-align: center;
+  
+}
+
+#foot{
+  background-color: forestgreen;
+  width: 100%;
+  
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+
