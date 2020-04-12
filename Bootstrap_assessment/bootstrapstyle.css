@@ -1,0 +1,32 @@
+body {
+    
+    line-height: 1.5;
+    text-transform: uppercase;
+    background-color: #79B9C5;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .shorttext{ display:none;}
+@font-face{
+    font-family: "spooky";
+    src: url("SomethingStrange-vjYD.ttf");
+}
+@media screen and (max-width: 768px) {
+
+#colorchange {
+    color: black;
+    font-weight: bold;
+}
+
+.shorttext{ display: inline-block;
+font-family: "spooky"}
+.fulltext{ display:none;}
+
+#surprise{
+
+color:white;
+font-family: "spooky";
+
+}
+
+}

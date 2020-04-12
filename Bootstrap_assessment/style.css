@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #79B9C5;
+}
+
+/*fancy*/
+h1 {
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Heaven*/
+h2 {
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+/*Quote*/
+h3 {
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px;
+  border-style: solid;
+  border-color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+/*FDM*/
+h4 {
+  margin: 2px;
+  text-align: left;
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-bottom: 90px;
+}
+
+p {
+  
+  color: white;
+  margin: auto;
+  width: 10em;
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5em;
+  font-size: 8px;
+
+}
