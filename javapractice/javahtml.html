@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const name = prompt(`enter your name`);
+    alert(`Hello ${name}`);
+
+    const email = prompt(`please enter your email`);
+
+    const password = prompt(`please enter your password`);
+
+    function getConfirmation() {
+               var retVal = confirm("Do you want this information to be saved?");
+               if( retVal == true ) {
+                  document.write ("Information saved! ");
+                  document.write (`Your name is ${name} and your email is ${email}`)
+                  return true;
+               } else {
+                  document.write ("Information Deleted");
+                  const name = `erased`;
+                  const email = `erased`;
+                  const password = `erased`;
+                  return false;
+               }
+            }
+    </script>
+
+<p>For email saving confirmation</p>
+    <form>
+        <input type="button" value="Click Here" onclick = "getConfirmation();"/>
+    </form>
+</body>
+</html>
