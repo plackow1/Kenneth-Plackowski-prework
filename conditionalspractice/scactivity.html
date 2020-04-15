@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Conditionals Activity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+        <script>
+                var username = prompt("Username?");
+                var password = prompt("Password?");
+
+                const aduse="admin";
+                const adpass="1234";
+                const user1="average joe";
+                const pass1="jsRocks";
+
+                if(pass1===password && user1===username){alert("Welcome to the user landing page")}
+
+                else if(adpass===password && aduse===username){alert("Welcome to the admin page")}
+
+                else {alert("Invalid username and password, refresh the page to try again")}
+        </script>
+</body>
+</html>
