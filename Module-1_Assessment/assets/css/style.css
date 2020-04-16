@@ -1,0 +1,36 @@
+#name {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    padding: 15px;
+    
+}
+
+body {
+    background-image: url("../images/double-bubble.png");
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#headfonts {
+    color: #777777;
+    margin: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+#changewidth {
+    width: 960px;
+}
+
+nav{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#headfont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    padding-bottom: 4px;
+    color: #4aaaa5;
+}
