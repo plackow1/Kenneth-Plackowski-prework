@@ -1,0 +1,41 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>Hangman</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body style="background-image: url('../images/y-so-serious.png')">
+    <header class="text-center" style="background-image: url('../images/y-so-serious.png')"><img src="../images/header1.jpg"></header>
+    <header class="text-center" style="background-image: url('../images/y-so-serious.png')"><img src="../images/header2.png"></header>
+
+<div class="container pb-5" style="border: 5px solid red;"> 
+    <div class="row justify-content-md-center p-1" style="border-bottom: 1px dotted red;">
+            <button type="button" style="background-color: #e7e7e7; color:black;" id="clickbox" >Click Here to Play</button>
+    </div>
+    <div class="row">
+        <div class="d-flex flex-column align-items-start col-sm-6" style="border-right: 1px dotted red; ">
+            <div style="color: white;"> Guess the word below:
+                
+                    <div id="progress" style="color: white;"><pre>   </pre></div>
+
+                    <div style="color: white;"> Guesses you have left:
+                        <div id="result" style="color: white;"> </div>
+                    </div>
+                    <div id="lives" style="color: white;">10</div>
+
+                    <div style="color: white;"> Letters you already guessed:
+                        <div id="guesses" style="color:white;"></div>
+                    </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-6" id="outcome" style="color: white;"><img id="outim" ></div>
+    </div>
+</div>
+                
+</body>
+<script src="game.js"></script>
+</html>
